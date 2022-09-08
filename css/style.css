@@ -1,2 +1,48 @@
 /* font-family: 'Inter', sans-serif;
 font-family: 'Manrope', sans-serif; */
+
+/* ========== SECTION 4 ========== */
+.container {
+}
+.section-four-list {
+  /* list-style: #e9b730; */
+}
+.section-four-element {
+  list-style: #e9b730;
+  width: 480px;
+  height: 480px;
+}
+.section-four-element:nth-child(1) {
+  background-color: #22356f;
+}
+.section-four-element:nth-child(2) {
+  background-color: #0052c1;
+}
+.section-four-element:nth-child(3) {
+  background-image: url(joanna-kosinska-340748.jpg);
+}
+.section-four-element:nth-child(4) {
+  background-color: #62d0df;
+}
+.section-four-element:nth-child(5) {
+  background-color: #dee1ff;
+}
+.section-four-element:nth-child(6) {
+  background-color: #8f00ff;
+}
+.thumb {
+}
+.section-four-text {
+  font-family: "Larsseit";
+  font-size: 32px;
+  line-height: 1.06;
+  letter-spacing: -0.006em;
+  color: #fff;
+}
+.section-four-text:nth-child(1) {
+  width: 157px;
+}
+.section-four-text:nth-child(2) {
+  width: 157px;
+}
+/* ========== SECTION 4 ========== */
