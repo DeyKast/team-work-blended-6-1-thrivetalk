@@ -2,48 +2,96 @@
 font-family: 'Manrope', sans-serif; */
 
 /* ========== SECTION 4 ========== */
+:root {
+    --bg-color-section-two: #62d0df;
+    --text-color-section-four: #ffffff;
+    --card-color-section-four-one: #22356f;
+    --card-color-section-four-two: #0052c1;
+    --card-color-section-four-four: #62d0df;
+    --card-color-section-four-five: #dee1ff;
+    --card-color-section-four-six: #8f00ff;
+    --dot-color: #e9b730;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+h2,
+h3,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.section-color-cards {
+    d
+}
 .container {
 }
+.section-four-header {
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 .section-four-list {
-  /* list-style: #e9b730; */
+    list-style: none;
 }
 .section-four-element {
-  list-style: #e9b730;
-  width: 480px;
-  height: 480px;
+    width: 480px;
+    height: 480px;
+}
+.section-four-element::before {
+
 }
 .section-four-element:nth-child(1) {
-  background-color: #22356f;
+    background-color: var(--card-color-section-four-one);
 }
 .section-four-element:nth-child(2) {
-  background-color: #0052c1;
+    background-color: var(--card-color-section-four-two);
 }
 .section-four-element:nth-child(3) {
-  background-image: url(joanna-kosinska-340748.jpg);
+    background-image: url(https://www.capitalr2r.co.uk/wp-content/uploads/sites/209/2018/10/joanna-kosinska-340748-unsplash-e1538145940437.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .section-four-element:nth-child(4) {
-  background-color: #62d0df;
+    background-color: var(--card-color-section-four-four);
 }
 .section-four-element:nth-child(5) {
-  background-color: #dee1ff;
+    background-color: var(--card-color-section-four-five);
 }
 .section-four-element:nth-child(6) {
-  background-color: #8f00ff;
+    background-color: var(--card-color-section-four-six);
 }
 .thumb {
 }
+.dot {
+    fill: var(--dot-color);
+}
 .section-four-text {
-  font-family: "Larsseit";
-  font-size: 32px;
-  line-height: 1.06;
-  letter-spacing: -0.006em;
-  color: #fff;
-  text-transform: capitalize;
+    font-family: "Larsseit";
+    font-size: 32px;
+    line-height: 1.06;
+    letter-spacing: -0.006em;
+    color: var(--text-color-section-four);
+    text-transform: capitalize;
+    display: flex;
 }
 .section-four-text:nth-child(1) {
-  width: 157px;
+    width: 157px;
 }
 .section-four-text:nth-child(2) {
-  width: 157px;
+    width: 157px;
 }
 /* ========== SECTION 4 ========== */
