@@ -1,6 +1,9 @@
 /* font-family: 'Inter', sans-serif;
 font-family: 'Manrope', sans-serif; */
-
+:root {
+  --bg-color-section-two: #62d0df;
+  --text-color-section-two: #ffffff;
+}
 img {
   display: block;
   max-width: 100%;
@@ -18,7 +21,7 @@ p {
   width: 1440px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #62d0df;
+  background-color: var(--bg-color-section-two);
 }
 .section-two-box {
   padding-top: 151px;
@@ -29,13 +32,13 @@ p {
 .section-two-title {
   margin-bottom: 75px;
   letter-spacing: -0.006em;
-  color: #ffffff;
+  color: var(--text-color-section-two);
 }
 .section-two-text {
   font-size: 24px;
   line-height: 1.45;
 
-  color: #ffffff;
+  color: var(--text-color-section-two);
 }
 .section-two-text-span {
   font-size: 20px;
