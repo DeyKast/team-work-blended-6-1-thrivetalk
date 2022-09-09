@@ -83,7 +83,8 @@ ol {
 .thumb {
   width: 340px;
   height: 96px;
-  box-shadow: inset 0px -1px 0px #ffffff;
+  box-shadow: inset 0px -1px 0px var(--text-color-section-four);
+  margin-left: 70px;
 }
 .dot {
   fill: var(--dot-color);
