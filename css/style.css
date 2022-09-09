@@ -38,6 +38,7 @@ font-family: 'Manrope', sans-serif; */
   line-height: 1.06;
   letter-spacing: -0.006em;
   color: #fff;
+  text-transform: capitalize;
 }
 .section-four-text:nth-child(1) {
   width: 157px;
