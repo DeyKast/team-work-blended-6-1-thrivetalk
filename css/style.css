@@ -88,20 +88,18 @@ ol {
 }
 .dot {
   fill: var(--dot-color);
+  width: 24px;
 }
 .section-four-text {
-  font-family: "Larsseit";
+  font-family: "Manrope", sans-serif;
   font-size: 32px;
   line-height: 1.06;
   letter-spacing: -0.006em;
   color: var(--text-color-section-four);
   text-transform: capitalize;
   display: flex;
+  margin-left: 80px;
+  margin-top: 30px;
 }
-.section-four-text:nth-child(1) {
-  width: 157px;
-}
-.section-four-text:nth-child(2) {
-  width: 157px;
-}
+
 /* ========== SECTION 4 ========== */
