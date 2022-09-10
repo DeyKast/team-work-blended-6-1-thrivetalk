@@ -1,5 +1,11 @@
 /* font-family: 'Inter', sans-serif;
 font-family: 'Manrope', sans-serif; */
+:root{
+  --primary-font: "Inter", sans-serif;
+  --secondary-text-font: "Manrope", sans-serif;
+  --primary-text-color-theme-light: #ffffff;
+}
+
 .list {
   list-style-type: none;
 }
@@ -35,7 +41,7 @@ img {
   letter-spacing: -0.006em;
   color: rgba(34, 53, 111, 0.5);
   margin-left: 0px;
-  width: 207px;
+  width: 160px;
 
 }
 /* .list-text{
@@ -64,6 +70,17 @@ img {
 }
 .list-last-sect{
     padding-left: 0px;
+}
+.list-mail{
+  font-style: normal;
+  font-family: "Inter";
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: -0.006em;
+  margin-left: 0px;
+}
+.phone-link{
+  margin-bottom: 30px;
 }
 
 /* footer */
